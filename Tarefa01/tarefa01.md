@@ -10,21 +10,21 @@
  * Inclui arquitetura cliente/servidor, stateless, cache, interface uniforme, sistema em camadas e opcionalmente código sob demanda.
 * Facilita a comunicação eficiente, escalável e flexível entre componentes de software.
 
---- ***
+--- 
 
 ## O que são APIs e sua função: 
  * API significa Application Programming Interface, ou interface de programação de aplicações. 
  * Conjunto de definições e protocolos para integração e desenvolvimento de aplicações. 
  * Funciona como um contrato entre provedor e usuário, estabelecendo conteúdos exigidos pela chamada e pela resposta. 
 
---- ***
+--- 
 
 ## Papel das APIs: 
  * Mediador entre usuários/clientes e recursos/serviços web.
  * Facilita o compartilhamento de recursos e informações. 
  * Mantém segurança, controle e autenticação.
 
---- ***
+--- 
 
 ## O que é uma API de REST?
  * APIs são conjuntos de definições e protocolos para integração e desenvolvimento de aplicações.
@@ -32,13 +32,13 @@
  * Baseia-se nos princípios do REST (Representational State Transfer).
  * Flexível e amplamente utilizada em arquiteturas de microsserviços.
 
---- ***
+--- 
 
 ## O que é REST?
  * REST ou Representational State Transfer, é um `modelo de arquitetura para a criação de web services` que se diferencia do modelo tradicional (como SOAP) pela utilização semântica dos métodos HTTP e pela simplicidade.
  * Não é um protocolo, mas sim um conjunto de diretrizes. 
 
---- ***
+--- 
 
 ## Princípios da arquitetura REST:
  * Arquitetura cliente/servidor com `comunicação via HTTP`.
@@ -52,13 +52,13 @@
  * Sistema em camadas para organização de servidores envolvidos.
  * Possibilidade de código sob demanda (opcional) para ampliar funcionalidades no cliente.
 
---- ***
+--- 
 
 ## Vantagens da arquitetura REST:
  * Mais fácil de usar do que protocolos prescritos como SOAP.
  * Mais rápida, leve e escalável, adequada para IoT e desenvolvimento de aplicativos móveis.
 
---- *** 
+--- 
 
 ## Principais características de uma requisição REST:
  * `Utilização de métodos HTTP:` As operações são mapeadas para os métodos HTTP padrão, como GET, POST, PUT e DELETE, para buscar, criar, atualizar e excluir recursos, respectivamente.
