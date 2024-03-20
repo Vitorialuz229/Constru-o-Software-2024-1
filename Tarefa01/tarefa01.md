@@ -45,10 +45,10 @@
  * Comunicação stateless entre cliente e servidor, sem armazenamento de informações do cliente.
  * Uso de cache para otimização de interações.
  * Interface uniforme entre componentes para transferência de informações em formato padronizado.
-          - Identificação e separação de recursos solicitados e suas representações.
-          - Manipulação de recursos pelo cliente através das representações recebidas. 
-          - Mensagens autodescritivas para descrição de processamento.
-          - Disponibilidade de hipertexto e hipermídia para navegação entre recursos.
+   -  Identificação e separação de recursos solicitados e suas representações.
+   -  Manipulação de recursos pelo cliente através das representações recebidas. 
+   -  Mensagens autodescritivas para descrição de processamento.
+   -  Disponibilidade de hipertexto e hipermídia para navegação entre recursos.
  * Sistema em camadas para organização de servidores envolvidos.
  * Possibilidade de código sob demanda (opcional) para ampliar funcionalidades no cliente.
 
