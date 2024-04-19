@@ -1,5 +1,9 @@
 public class Pais {
-   private String nome;      
+   private String nome; 
+   
+   public Pais(String nome) { 
+          this.nome = nome;
+   }
 
     /**
      * @return String return the nome

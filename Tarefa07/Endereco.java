@@ -5,13 +5,13 @@ public class Endereco {
     private Integer numero; 
     private String complemento; 
     private Integer CEP;  
-    private List<TipoEndereco> tiposDeEnderecos;   
+    private List<TipoEndereco> tiposDeEndereco;   
     private Logradouro logradouro;
     private Bairro bairro;
     private PessoaFisica pessoaFisicas;
 
     public Endereco() { 
-        tiposDeEnderecos = new ArrayList<>();
+        tiposDeEndereco = new ArrayList<>();
     }
 
     /**
@@ -57,17 +57,17 @@ public class Endereco {
     }
 
     /**
-     * @return List<TipoEndereco> return the tiposDeEnderecos
+     * @return List<TipoEndereco> return the tiposDeEndereco
      */
-    public List<TipoEndereco> getTiposDeEnderecos() {
-        return tiposDeEnderecos;
+    public List<TipoEndereco> gettiposDeEndereco() {
+        return tiposDeEndereco;
     }
 
     /**
-     * @param tiposDeEnderecos the tiposDeEnderecos to set
+     * @param tiposDeEndereco the tiposDeEndereco to set
      */
-    public void setTiposDeEnderecos(List<TipoEndereco> tiposDeEnderecos) {
-        this.tiposDeEnderecos = tiposDeEnderecos;
+    public void settiposDeEndereco(List<TipoEndereco> tiposDeEndereco) {
+        this.tiposDeEndereco = tiposDeEndereco;
     }
 
     /**
@@ -110,6 +110,21 @@ public class Endereco {
      */
     public void setPessoaFisicas(PessoaFisica pessoaFisicas) {
         this.pessoaFisicas = pessoaFisicas;
+    }
+
+
+    /**
+     * @return List<TipoEndereco> return the tiposDeEndereco
+     */
+    public List<TipoEndereco> getTiposDeEndereco() {
+        return tiposDeEndereco;
+    }
+
+    /**
+     * @param tiposDeEndereco the tiposDeEndereco to set
+     */
+    public void setTiposDeEndereco(List<TipoEndereco> tiposDeEndereco) {
+        this.tiposDeEndereco = tiposDeEndereco;
     }
 
 }

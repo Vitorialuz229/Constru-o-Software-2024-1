@@ -1,6 +1,6 @@
 public class Cidade {
     private String nome;
-    Estado estado;      
+    private Estado estado;      
 
     /**
      * @return String return the nome
@@ -14,6 +14,20 @@ public class Cidade {
      */
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    /**
+     * @return Estado return the estado
+     */
+    public Estado getEstado() {
+        return estado;
+    }
+
+    /**
+     * @param estado the estado to set
+     */
+    public void setEstado(Estado estado) {
+        this.estado = estado;
     }
 
 }
