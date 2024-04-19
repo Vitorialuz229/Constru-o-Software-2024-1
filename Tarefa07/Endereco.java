@@ -8,10 +8,12 @@ public class Endereco {
     private List<TipoEndereco> tiposDeEnderecos;   
     private Logradouro logradouro;
     private Bairro bairro;
+    private PessoaFisica pessoaFisicas;
 
     public Endereco() { 
         tiposDeEnderecos = new ArrayList<>();
     }
+
     /**
      * @return Integer return the numero
      */
@@ -66,6 +68,48 @@ public class Endereco {
      */
     public void setTiposDeEnderecos(List<TipoEndereco> tiposDeEnderecos) {
         this.tiposDeEnderecos = tiposDeEnderecos;
+    }
+
+    /**
+     * @return Logradouro return the logradouro
+     */
+    public Logradouro getLogradouro() {
+        return logradouro;
+    }
+
+    /**
+     * @param logradouro the logradouro to set
+     */
+    public void setLogradouro(Logradouro logradouro) {
+        this.logradouro = logradouro;
+    }
+
+    /**
+     * @return Bairro return the bairro
+     */
+    public Bairro getBairro() {
+        return bairro;
+    }
+
+    /**
+     * @param bairro the bairro to set
+     */
+    public void setBairro(Bairro bairro) {
+        this.bairro = bairro;
+    }
+
+    /**
+     * @return PessoaFisica return the pessoaFisicas
+     */
+    public PessoaFisica getPessoaFisicas() {
+        return pessoaFisicas;
+    }
+
+    /**
+     * @param pessoaFisicas the pessoaFisicas to set
+     */
+    public void setPessoaFisicas(PessoaFisica pessoaFisicas) {
+        this.pessoaFisicas = pessoaFisicas;
     }
 
 }
