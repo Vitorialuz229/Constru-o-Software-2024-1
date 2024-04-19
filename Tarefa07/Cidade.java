@@ -1,3 +1,4 @@
 public class Cidade {
-    private String nome;      
+    private String nome;
+    Estado estado;      
 }
