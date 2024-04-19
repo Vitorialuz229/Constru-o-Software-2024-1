@@ -1,3 +1,4 @@
 public class Bairro {
-     private String nome;      
+     private String nome; 
+     Cidade cidade;     
 }
