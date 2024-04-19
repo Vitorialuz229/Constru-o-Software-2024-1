@@ -6,6 +6,7 @@ public class Endereco {
     private String complemento; 
     private Integer CEP;  
     private List<TipoEndereco> tiposDeEnderecos;   
+    private Logradouro logradouro;
 
     public Endereco() { 
         tiposDeEnderecos = new ArrayList<>();
