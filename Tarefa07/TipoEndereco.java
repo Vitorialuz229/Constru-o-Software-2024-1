@@ -2,14 +2,14 @@ public enum TipoEndereco {
     COMERCIAL("Comercial"), 
     RESIDENCIAL("Residencial");
 
-    private final String nome; 
+    private final String tipo; 
 
-    TipoEndereco(String nome) { 
-          this.nome = nome;
+    TipoEndereco(String tipo) { 
+          this.tipo = tipo;
     }
 
-    public String getNome() { 
-          return nome;
+    public String getTipo() { 
+          return tipo;
     }
 
 }
