@@ -7,6 +7,7 @@ public class Endereco {
     private Integer CEP;  
     private List<TipoEndereco> tiposDeEnderecos;   
     private Logradouro logradouro;
+    private Bairro bairro;
 
     public Endereco() { 
         tiposDeEnderecos = new ArrayList<>();
