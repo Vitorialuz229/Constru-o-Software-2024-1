@@ -1,1 +1,3 @@
-# Constru-o-Software-2024-1
+# Repositório Construção de Software
+
+Repositório destinado as tarefas elaboradas na metéria de construção de software do semestre 2024.1
